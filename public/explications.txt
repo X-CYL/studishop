@@ -1,0 +1,9 @@
+le composant "CardArticles" est la fonction qui retourne la vue en cartes
+
+elle va recevoir les props "name" et "price" stockées dans un tableau "fakeDate" qui se trouve dans un composant spécifique
+
+le composant ListArticles est la fonction qui renvoie la constante "articlesListing" dans laquelle  on "map"
+chaque article de la "props.articles (en fait fakeDate)" qui est affectée dans le composant "Apps" via "articles = {fakeDate}
+en fait on "map" dans "fakeDate"
+
+"fakeDate" est letableau qui contient les different objets (pizzas)
