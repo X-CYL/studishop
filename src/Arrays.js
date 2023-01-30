@@ -13,9 +13,7 @@ export const data = [
   {
     category: "Pizza",
     name: "Oceane",
-    price_small: 12,
-    price_medium: 16,
-    price_large: 22,
+    price: 12,
     photo: "../pictures/Pizza/pizza-oceane.png",
     alt: "photo de pizza oceane avec crevettes et saumon",
     disponibility: true,
@@ -24,20 +22,16 @@ export const data = [
   {
     category: "Pizza",
     name: "Espagna",
-    price_small: 10,
-    price_medium: 14,
-    price_large: 17,
+    price: 10,
     photo: "../pictures/Pizza/pizza-espagna.png",
     alt: "photo de pizza espagna au chorizo",
-    disponibility: true,
+    disponibility: false,
     description: "Tomate, Jambon cru, Chorizo, mozzarella, Roquette, Basilic"
   },
   {
     category: "Pizza",
     name: "Vésuvio",
-    price_small: 10,
-    price_medium: 14,
-    price_large: 17,
+    price: 10,
     photo: "../pictures/Pizza/pizza-vesuvio.png",
     alt: "photo de pizza vésuvo au jambon et piments",
     disponibility: true,
@@ -46,9 +40,7 @@ export const data = [
   {
     category: "Pizza",
     name: "Margharita",
-    price_small: 6.5,
-    price_medium: 9,
-    price_large: 12,
+    price: 6.5,
     photo: "../pictures/Pizza/pizza-marguarita.png",
     alt: "photo de pizza margarita au jambon et roquette",
     disponibility: true,
@@ -57,9 +49,7 @@ export const data = [
   {
     category: "Pizza",
     name: "4 fromages",
-    price_small: 8,
-    price_medium: 10,
-    price_large: 13,
+    price: 8,
     photo: "../pictures/Pizza/pizza-4-fromages.png",
     alt: "photo de pizza 4 fromages",
     disponibility: true,
@@ -68,10 +58,8 @@ export const data = [
   {
     category: "Pizza",
     name: "Bambino",
-    price_small: 6.5,
-    price_medium: 9,
-    price_large: 12,
-    photo: "../pictures/Pizza/piza-bambino.png",
+    price: 6.5,
+    photo: "../pictures/Pizza/pizza-bambino.png",
     alt: "photo de pizza au blanc de poulet pour les enfants",
     disponibility: true,
     description: "Tomate, Blanc de poulet, Gruyère, Basilic"
@@ -173,7 +161,7 @@ export const data = [
     photo: "../pictures/deserts/tarte-citron.png",
     alt: "photo de tarte au citron",
     disponibility: true,
-    description: "Tarte maison, produite entièrements naturels"
+    description: "Tarte maison, produit entièrement naturel"
   },
   {
     category: "Dessert",
